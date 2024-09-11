@@ -74,6 +74,11 @@ section {
     width: 80%;
     margin: auto;
     text-decoration: none;
+} 
+
+.container h2 a {
+    text-decoration: none;
+    color: #070707;
 }
 
 h2 {
