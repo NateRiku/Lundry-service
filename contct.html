@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Laundry Express</title>
+    <link rel="stylesheet" href="contct.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Contact</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="pricing.html">Pricing</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <p>We'd love to hear from you! Fill out the form below or reach out via email or phone.</p>
+            
+            <form action="submit_form.php" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+                
+                <button type="submit" class="btn">Send Message</button>
+            </form>
+
+            <div class="contact-info">
+                <h3>Our Contact Details</h3>
+                <p><strong>Email:</strong> <a href="mailto:contact@laundryservice.com">contact@laundryexpress.com</a></p>
+                <p><strong>Phone:</strong> +234-909-900-9009</p>
+                <p><strong>Address:</strong> NO4 gwari avenue barnawa</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>Laundry Express. <a href="mailto:contact@laundryservice.com">Contact Us</a></p>
+        </div>
+    </footer>
+</body>
+</html>

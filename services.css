@@ -40,10 +40,14 @@ header nav ul li {
 header nav ul li a {
     color: #fff;
     text-decoration: none;
+} 
+
+.container a:hover{
+    color: #ff4500;
 }
 
 .hero {
-    background: url('https://via.placeholder.com/1200x400') no-repeat center center/cover;
+    background: image(lundry.jpeg)
     color: #fff;
     text-align: center;
     padding: 5rem 0;
@@ -84,7 +88,7 @@ h2 {
 
 .service-detail h3 {
     margin-bottom: 0.5rem;
-    font-size: 1.5rem;
+    font-size: 25px;
 }
 
 #cta {
@@ -94,7 +98,7 @@ h2 {
 #cta .btn {
     background: #ff4500;
     color: #fff;
-    padding: 0.75rem 1.5rem;
+    padding: 20px 15px;
     text-decoration: none;
     border-radius: 5px;
 }

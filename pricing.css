@@ -46,6 +46,10 @@ header nav ul li a {
     text-decoration: none;
 }
 
+.container a:hover{
+    color: #ff4500;
+}
+
 /* Main Content Styles */
 main {
     padding: 1rem;
