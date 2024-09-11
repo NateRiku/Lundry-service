@@ -50,12 +50,10 @@ header nav ul li a {
     color: #ff4500;
 }
 
-/* Main Content Styles */
 main {
     padding: 1rem;
 }
 
-/* Pricing Section Styles */
 .pricing {
     display: flex;
     justify-content: center;
@@ -92,7 +90,6 @@ ul li {
     margin-bottom: 0.5rem;
 }
 
-/* Footer Styles */
 footer {
     background-color: #333;
     color: #fff;

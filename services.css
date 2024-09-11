@@ -108,4 +108,9 @@ footer {
     color: #fff;
     text-align: center;
     padding: 1rem 0;
+} 
+
+footer a {
+    color: #ffeb3b;
+    text-decoration: none;
 }
